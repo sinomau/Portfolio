@@ -23,12 +23,12 @@ const projectsData = [
   },
   {
     id: 3,
-    imgUrl: '',
-    title: 'Proyecto 3',
+    imgUrl: 'images/projects/backend.png',
+    title: 'Backend Ecommerce',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, doloremque.',
-    gitUrl: 'https://github.com',
-    liveUrl: 'https://mixteam.com',
+      'El "backend-proyect" es una robusta infraestructura desarrollada con Node.js y Express, respaldada por MongoDB y Mongoose para el modelado de datos. Gestiona la autenticación mediante Passport y JSON Web Tokens, y ofrece comunicación en tiempo real con Socket.io. Incorpora herramientas como Multer, Nodemailer, Swagger y otras para un desarrollo eficiente y seguro. El código y la documentación detallada están disponibles en su repositorio de GitHub.',
+    gitUrl: 'https://github.com/sinomau/Backend/tree/main',
+    liveUrl: 'https://backend-production-ac1d.up.railway.app/',
   },
 ];
 

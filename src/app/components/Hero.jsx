@@ -2,6 +2,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { TypeAnimation } from 'react-type-animation';
+import Link from 'next/link';
 
 const Hero = () => {
   return (
@@ -31,12 +32,12 @@ const Hero = () => {
         </p>
 
         <div>
-          <button className='w-full sm:w-fit bg-white px-6 py-3 rounded-full hover:bg-slate-200 text-black mr-3'>
+          <Link href='/#contact' className='w-full sm:w-fit bg-white px-6 py-3 rounded-full hover:bg-slate-200 text-black mr-3'>
             Contacto
-          </button>
-          <button className='w-full sm:w-fit bg-transparent px-6 py-3 rounded-full hover:bg-slate-800 border border-white mt-3 text-white'>
+          </Link>
+          <Link target='_blank' href='https://drive.google.com/file/d/171ExGRRyQ0e8hGjpSQBb-3zIOLU-xjlO/view?usp=sharing' className='w-full sm:w-fit bg-transparent px-6 py-3 rounded-full hover:bg-slate-800 border border-white mt-3 text-white'>
             Descargar CV
-          </button>
+          </Link>
         </div>
       </div>
       <div className='col-span-5 mt-10 place-self-center lg:mt-0'>
