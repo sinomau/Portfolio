@@ -9,7 +9,7 @@ const projectsData = [
     title: 'Mix team',
     description:
       'Esta aplicación en JavaScript y estilos en picocss es un mezclador de equipos. Permite agregar jugadores, mezclarlos en dos equipos y compartirlos por WhatsApp. Recupera y guarda los equipos en el almacenamiento local del navegador. Además, ofrece funciones para reiniciar los equipos.También proporciona noticias, el clima y resultados de fútbol.',
-    gitUrl: 'https://github.com',
+    gitUrl: 'https://github.com/sinomau/mixteam',
     liveUrl: 'https://sinomau.github.io/mixteam/index.html',
   },
   {

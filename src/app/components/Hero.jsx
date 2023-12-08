@@ -29,8 +29,6 @@ const Hero = () => {
         </h1>
         <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>
           Gracias por visitar mi sitio web.
-          <br />
-          Si tienes consultas sobre mi trabajo, no dudes en contactarme.
         </p>
 
         <div>
