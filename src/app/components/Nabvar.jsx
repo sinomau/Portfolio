@@ -30,7 +30,7 @@ const Navbar = () => {
           href={'/'}
           className='md:text-3xl text-white font-semibold'
         >
-          SINODEV
+          SINODEV_
         </Link>
         <div className='mobile-menu block md:hidden'>
           {!navbarOpen ? (

@@ -51,10 +51,14 @@ const EmailSection = () => {
           abierto a cualquier consulta.{' '}
         </p>
         <div className='socials flex flex-row gap-2'>
-          <Link href='github.com' alt='github'>
+          <Link target='_blank' href='https://github.com/sinomau' alt='github'>
             <Image src={GithubIcon} alt='github'></Image>
           </Link>
-          <Link href='linkedin.com' alt='linkedin'>
+          <Link
+            target='_blank' 
+            href='https://www.linkedin.com/in/mauro-sinopoli-a81a12235/'
+            alt='linkedin'
+          >
             <Image src={LinkedinIcon} alt='linkedin'></Image>
           </Link>
         </div>

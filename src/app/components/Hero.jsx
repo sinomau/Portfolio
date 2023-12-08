@@ -10,7 +10,7 @@ const Hero = () => {
       <div className='col-span-7 place-self-center text-center'>
         <h1 className='text-white mb-4 text-4xl sm:text-5xl lg:text-6xl lg:leading-normal font-extrabold'>
           <span className='lg:text-8xl sm:text-6xl text-transparent bg-clip-text font-extrabold bg-gradient-to-r from-blue-800 to-blue-300'>
-          Hola!, soy{' '}
+            Hola!, soy{' '}
           </span>
           <br />
           <TypeAnimation
@@ -28,14 +28,23 @@ const Hero = () => {
           />
         </h1>
         <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit
+          Gracias por visitar mi sitio web.
+          <br />
+          Si tienes consultas sobre mi trabajo, no dudes en contactarme.
         </p>
 
         <div>
-          <Link href='/#contact' className='w-full sm:w-fit bg-white px-6 py-3 rounded-full hover:bg-slate-200 text-black mr-3'>
+          <Link
+            href='/#contact'
+            className='w-full sm:w-fit bg-white px-6 py-3 rounded-full hover:bg-slate-200 text-black mr-3'
+          >
             Contacto
           </Link>
-          <Link target='_blank' href='https://drive.google.com/file/d/171ExGRRyQ0e8hGjpSQBb-3zIOLU-xjlO/view?usp=sharing' className='w-full sm:w-fit bg-transparent px-6 py-3 rounded-full hover:bg-slate-800 border border-white mt-3 text-white'>
+          <Link
+            target='_blank'
+            href='https://drive.google.com/file/d/171ExGRRyQ0e8hGjpSQBb-3zIOLU-xjlO/view?usp=sharing'
+            className='w-full sm:w-fit bg-transparent px-6 py-3 rounded-full hover:bg-slate-800 border border-white mt-3 text-white'
+          >
             Descargar CV
           </Link>
         </div>
