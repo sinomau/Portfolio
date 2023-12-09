@@ -40,7 +40,7 @@ const Hero = () => {
           </Link>
           <Link
             target='_blank'
-            href='https://drive.google.com/file/d/171ExGRRyQ0e8hGjpSQBb-3zIOLU-xjlO/view?usp=sharing'
+            href='https://drive.google.com/file/d/1TN9rU2Gv5Kelup7AD7wmrlR1WZDfp9GY/view?usp=sharing'
             className='w-full sm:w-fit bg-transparent px-6 py-3 rounded-full hover:bg-slate-800 border border-white mt-3 text-white'
           >
             Descargar CV
